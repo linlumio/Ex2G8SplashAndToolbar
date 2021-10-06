@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ex2G8SplashAndToolbar">
+
         <activity
             android:name=".Splash"
             android:theme="@style/Splash_Theme"
@@ -19,11 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
 
-        </activity>
+        <activity android:name=".MainActivity"
+            android:exported="true"
+            ></activity>
+
+
     </application>
 
 </manifest>

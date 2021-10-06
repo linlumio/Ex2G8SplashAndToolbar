@@ -7,6 +7,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //ricorda che bisogna aggiungere il widget nella cartella layout, activityman
+        //per poi richiamare il background fatto nella cartella drawable
         setSupportActionBar(findViewById(R.id.toolbarra))
 
     }
